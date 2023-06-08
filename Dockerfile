@@ -8,5 +8,5 @@ ADD . .
 
 RUN pip --no-cache-dir install --upgrade pip && pip --no-cache-dir install .[api,cloud]
 
-EXPOSE PORT 8086
+EXPOSE 8086
 ENTRYPOINT ["bin/startup.sh"]
