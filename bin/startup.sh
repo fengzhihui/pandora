@@ -35,9 +35,6 @@ if [ -n "${PANDORA_VERBOSE}" ]; then
 fi
 
 PANDORA_COMMAND="pandora-cloud"
-if [ -n "${PANDORA_CLOUD}" ]; then
-  
-fi
 
 export USER_CONFIG_DIR
 
